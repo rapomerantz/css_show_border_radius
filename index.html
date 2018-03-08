@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="client.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Atticus Border Radius</title>
+  </head>
+  <body>
+
+    <header>
+      <h1>Show & Tell: Border Radius</h1>
+    </header>
+    <div class= "content">
+      <p>
+        The CSS border property rounds the corners of borders, images, divs and more. <br/>
+        The higher the number (in pixles), the more rounded the corners become. <br/>
+        If <span><strong>two values</strong></span> are set, the first applies to top-left and bottom-right corner,
+        the second applies to top-right and bottom-left corner. <br/>
+        <span><strong>Four values</strong></span> apply to the top-left, top-right, bottom-right, bottom-left corner in that order. <br/>
+        <span><strong>Three values:</strong></span> The second value applies to top-right and also bottom-left. <br/>
+        The rounding doesn't have to be perfectly circular, it can be elliptical. <br/>
+        This is done using a slash ("/") between two values.
+      </p>
+
+        <div class="block1"><p>border-radius: 5px;</p></div>
+        <div class="block2"><p>border-radius: 20px</p></div>
+        <div class="block3"><p>border-radius: 50px;</p></div>
+        <div class="block4"><p>border-radius: 100px;</p></div>
+        <div class="block5"><p>border-radius: 5px 20px 5px;</p></div>
+        <div class="block6"><p>border-radius: 5px 50px 5px;</p></div>
+        <div class="block7"><p>border-radius: 50px 5px 50px;</p></div>
+        <div class="block8"><p>border-radius: 30px/10px;</p></div>
+        <div class="block9"><p>border-radius: 10px/30px;</p></div>
+        <div class="block10"><p>border-radius: 15px 30px 45px 7.5px;</p></div>
+    </div>
+  </body>
+</html>
